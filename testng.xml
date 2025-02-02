@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nbyula Test Suite">
+    <test name="Web Tests">
+        <classes>
+            <class name="com.nbyula.tests.SkyliftBookingTest"></class>
+            <class name="com.nbyula.tests.AccommodationPageTest"></class>
+            <class name="com.nbyula.tests.FeedPageTest"/>
+        </classes>
+    </test>
+</suite>
